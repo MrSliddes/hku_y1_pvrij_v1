@@ -104,6 +104,7 @@ public class ManagerUI : MonoBehaviour
     {
         deadScreen.SetActive(false);
         print("Reset you fuck");
+        SceneManager.UnloadSceneAsync(1);
         SceneManager.LoadScene(1);
     }
 }

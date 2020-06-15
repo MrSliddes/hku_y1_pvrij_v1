@@ -14,6 +14,7 @@ public class PlankOppakken : MonoBehaviour
     void Start()
     {
         managerUI = FindObjectOfType<ManagerUI>();
+        hasPlank = false;
     }
 
     // Update is called once per frame

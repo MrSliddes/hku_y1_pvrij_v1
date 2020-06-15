@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
 
     public IEnumerator Animatie()
     {
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(14);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         yield break;

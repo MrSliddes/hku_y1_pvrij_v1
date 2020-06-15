@@ -32,7 +32,7 @@ public class MedkitPickup : MonoBehaviour
                 medAmount++;
                 uiIcon.SetActive(true);
                 GetComponent<MeshRenderer>().enabled = false;
-                GetComponentInChildren<MeshRenderer>().enabled = false;
+                transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
             }
         }
     }
